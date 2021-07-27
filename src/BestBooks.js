@@ -13,7 +13,7 @@ class MyFavoriteBooks extends React.Component {
       <Jumbotron>
         <h1>My Favorite Books</h1>
         <p>
-          This is a collection of my favorite books { user }
+          This is a collection of my favorite books { user.name }
         </p>
       </Jumbotron>
     )
