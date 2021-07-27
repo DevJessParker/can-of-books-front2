@@ -46,6 +46,7 @@ class App extends React.Component {
             <Footer />
           </IsLoadingAndError>
         </Router> 
+        
       </>
     );
   }
