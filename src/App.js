@@ -6,6 +6,7 @@ import Profile from './Profile.js';
 import BestBooks from './BestBooks.js';
 import Login from './Login.js';
 import { withAuth0 } from '@auth0/auth0-react';
+import Content from './Content.js'
 import {
   BrowserRouter as Router,
   Switch,
@@ -33,6 +34,7 @@ class App extends React.Component {
                <Profile />
               }
               </Route>
+              <Content />
             </Switch>
             <Footer />
           </IsLoadingAndError>
