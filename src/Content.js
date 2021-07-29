@@ -14,7 +14,8 @@ class Content extends React.Component {
         const config = {
           method: 'get',
           headers: {'Authorization': `Bearer ${jwt}`},
-          baseURL: 'https://can-of-books-jp.netlify.app',
+          // baseURL: 'https://can-of-books-jp.netlify.app',
+          baseURL: 'http://localhost:3001',
           url: '/auth-test'
         }
         
